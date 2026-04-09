@@ -10,7 +10,7 @@ print("=" * 50)
 
 # Load dataset
 print("\n [Step 1] Loading dataset . . .")
-df_diabetes = pd.read_csv('diabetes-ml-project/data/diabetes.csv')
+df_diabetes = pd.read_csv('data/diabetes.csv')
 print(f"Dataset shape: {df_diabetes.shape[0]} rows, {df_diabetes.shape[1]} columns")
 
 # Prepare features and target
