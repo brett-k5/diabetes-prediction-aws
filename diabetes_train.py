@@ -69,4 +69,3 @@ for name, importance in sorted(zip(feature_names, importances), key=lambda x: x[
     print("\n" + "=" * 50)
     print("TRAINING COMPLETE!")
     print("=" * 50)
-    EOF
