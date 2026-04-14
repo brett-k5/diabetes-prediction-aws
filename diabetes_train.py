@@ -55,7 +55,7 @@ print(classification_report(y_test, y_pred, target_names=['No Diabetes', 'Diabet
 # Step 6: Save the trained model
 print("\n[Step 6] Saving model...")
 
-model_path = '/home/ec2-user/diabetes-ml-project/models/diabetes_model.pkl'
+model_path = '/home/ec2-user/diabetes-prediction-aws/diabetes_model.pkl'
 with open(model_path, 'wb') as f:
     pickle.dump(model, f)
 print(f"Model saved to {model_path}")
